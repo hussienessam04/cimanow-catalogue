@@ -1,10 +1,11 @@
 {
   "name": "stremio-cimanow-addon",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "CimaNow Arabic streaming addon for Stremio",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "start:puppeteer": "node index.js",
     "dev": "nodemon index.js",
     "test": "node test.js"
   },
@@ -22,6 +23,6 @@
     "nodemon": "^3.0.1"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=14.0.0"
   }
 }
